@@ -1,0 +1,184 @@
+/*---------------------1. GLOBAL------------------------*/
+
+body {
+    background: #F4F4F4;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, article {
+    color: #263248;
+}
+
+#loader-wrapper .loader-section {
+    background: #F4F4F4;
+}
+
+/*---SCROLL BAR---*/
+
+::-webkit-scrollbar {
+    background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #263248;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(209,209,209,0.4);
+}
+
+/*-------------------2. HEADER & NAV--------------------*/
+
+.name h5 span {
+    color: #FFFFFF;
+}
+
+.navigation li {
+    background: #FFFFFF;
+}
+
+.navigation li a:hover, .navigation li a:hover i, .flex-active a, .flex-active a i {
+    color: #FFFFFF !important;
+}
+
+.navigation li:before {
+    background: #050D10;
+}
+
+@media only screen and (max-width: 767px) {
+    .navigation li a i {
+        color: #050D10;
+    }
+}
+
+/*------------------3. MAIN CONTENT---------------------*/
+
+.profile, .resume, .gallery, .contact {
+    background: #FFFFFF;
+}
+
+.mask:after {
+    box-shadow: 0 0 7px #060C0C;
+}
+
+.np-controls a i {
+    color: #050D10;
+}
+
+.np-controls a:hover i {
+    color: #7E8AA2;
+}
+
+/*---------------------4. PROFILE-----------------------*/
+
+
+/*----------------------5. RESUME-----------------------*/
+
+.hvr-grow-shadow {
+    background: #FFFFFF;
+    border: 1px solid #002F2F;
+    color: #263248;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    background: #263248;
+    color: #FFFFFF;
+    box-shadow: 0 10px 10px -10px rgba(255, 255, 255, 0.5);
+}
+
+.timeline .line {
+    background: rgba(38,50,72,1);
+    background: -moz-linear-gradient(rgba(38,50,72,1) 0%, rgba(38,50,72,1) 70%, rgba(56,56,56,0) 100%);
+    background: -webkit-linear-gradient(rgba(38,50,72,1) 0%, rgba(38,50,72,1) 70%, rgba(56,56,56,0) 100%);
+    background: -o-linear-gradient(rgba(38,50,72,1) 0%, rgba(38,50,72,1) 70%, rgba(56,56,56,0) 100%);
+    background: -ms-linear-gradient(rgba(38,50,72,1) 0%, rgba(38,50,72,1) 70%, rgba(56,56,56,0) 100%);
+    background: linear-gradient(rgba(38,50,72,1) 0%, rgba(38,50,72,1) 70%, rgba(56,56,56,0) 100%);
+}
+
+.timeline .card {
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: #263248;
+    border-color: #FFFFFF;
+}
+
+.timeline .card .card-header.icon-m {
+    background: transparent;
+    border: 4px solid #263248;
+}
+
+.timeline .card .card-header.icon-b {
+    background: #FFFFFF;
+}
+
+.timeline .card-header {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #F7F7F7), color-stop(100%, #FFFFFF));
+    background-image: -moz-linear-gradient(#F7F7F7, #FFFFFF);
+    background-image: -webkit-linear-gradient(#F7F7F7, #FFFFFF);
+    background-image: linear-gradient(#F7F7F7, #FFFFFF);
+}
+
+#quote-carousel .carousel-control {
+    color: #263248;
+}
+
+#quote-carousel .carousel-indicators li {
+    border: 4px solid #263248;
+}
+
+#quote-carousel .carousel-indicators .active {
+    background: #263248;
+    border-color: #263248;
+}
+
+.skill-tag,
+.skill-tag:before,
+.skill-tag:after {
+    border: 1px solid #F7F7F7;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #F7F7F7), color-stop(100%, #FFFFFF));
+    background-image: -moz-linear-gradient(#F7F7F7, #FFFFFF);
+    background-image: -webkit-linear-gradient(#F7F7F7, #FFFFFF);
+    background-image: linear-gradient(#F7F7F7, #FFFFFF);
+}
+
+.skill-tag:after {
+    background: #FFFFFF;
+}
+
+/*---------------------7. CONTACT-----------------------*/
+
+.contact-info li {
+    background: #263248;
+}
+
+.contact-info li em {
+    color: #F7F7F7;
+}
+
+.contact-info li span {
+    color: #263248;
+    background: #F7F7F7;
+}
+
+.successmessage p {
+    color: #263248;
+}
+
+/*----------------------8. FOOTER-----------------------*/
+
+footer {
+    background: #050D10;
+}
+
+footer p, .social li a {
+    color: #FFFFFF;
+}
+
+.social li a i:hover {
+    color: #7E8AA2;
+}

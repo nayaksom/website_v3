@@ -1,0 +1,34 @@
+application: soumyajitnayakweb 
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /(.*\.html)
+  static_files: \1
+  upload: (.*\.html)
+
+- url: /images/(.*)
+  static_files: images/\1
+  upload: images/(.*)
+
+- url: /docs/(.*)
+  static_files: docs/\1
+  upload: docs/(.*)
+
+- url: /css/(.*)
+  static_files: css/\1
+  upload: css/(.*)
+
+- url: /js/(.*)
+  static_files: js/\1
+  upload: js/(.*)
+
+- url: /(.*\.html)
+  static_files: \1
+  upload: index.html
